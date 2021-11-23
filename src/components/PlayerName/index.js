@@ -1,8 +1,8 @@
-import "./style.css"
+//import "./style.css"
 
-function PlayerName() {
+function PlayerName(content) {
     return `
-        <p>Player1</p>
+        <p>${content}</p>
     `;
 }
 
