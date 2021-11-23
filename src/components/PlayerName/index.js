@@ -2,9 +2,7 @@ import "./style.css"
 
 function PlayerName() {
     return `
-        <article>
-            Guilherme
-        </article>
+        <p>Player1</p>
     `;
 }
 
