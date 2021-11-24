@@ -1,10 +1,11 @@
 import PlayerName from "../../PlayerName";
+import './style.css'
 
 function ScoreBoard() {
     return `
     <header class="score-board"> 
-        ${PlayerName("Clebinho tchutchucao")}
-        ${PlayerName("Pablo Marques treze")}
+        ${PlayerName("Player 1")}
+        ${PlayerName("Player 2")}
     </header>
     `;
 }
