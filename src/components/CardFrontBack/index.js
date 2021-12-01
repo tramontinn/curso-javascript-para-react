@@ -2,7 +2,6 @@ import CardGame from "../CardGame";
 import "./style.css";
 
 
-
 function CardFrontBack() {
     window.cardFrontBack = {}
     window.cardFrontBack.handleClick = (event) => {
@@ -27,7 +26,7 @@ function CardFrontBack() {
             ${CardGame("javascript", "Logo do Javascript")}
          </div>
         </article>
-    `
+    `;
 }
 
 export default CardFrontBack;
